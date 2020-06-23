@@ -1,0 +1,16 @@
+{
+  "name": "in-app-update",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "react-native": ">=0.60 <1.0.0"
+  }
+}
